@@ -21,7 +21,7 @@ const Home: React.FC = () => {
             because we’ll give you a truly out of this world experience!
           </p>
         </div>
-        <div className="flex-shrink-0 mt-10 lg:mt-0 lg:ml-20">
+        <div className="mt-10 lg:mt-0 lg:ml-20">
           <button className="w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 rounded-full bg-accent text-lg sm:text-xl font-heading text-black flex items-center justify-center hover:bg-opacity-80">
             EXPLORE
           </button>
