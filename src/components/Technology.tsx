@@ -13,28 +13,28 @@ const Technology: React.FC = () => {
       }}
     >
       <div className="container mx-auto p-6">
-        <h1 className="text-2xl uppercase mb-6 tracking-widest" style={{ fontFamily: 'Bellefair, serif' }}>
+        <h1 className="text-2xl uppercase mb-6 sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl" style={{ fontFamily: 'Bellefair, serif' }}>
           <span className="opacity-50">03</span> Space Launch 101
         </h1>
-        <div className="flex justify-center items-center space-x-8">
-          <div className="flex-1">
+        <div className="flex flex-col lg:flex-row justify-center items-center lg:space-x-8 space-y-8 lg:space-y-0">
+          <div className="flex-1 lg:flex-none lg:w-1/2">
             <img
               src={currentTech.images.portrait}
               alt={currentTech.name}
-              className="max-w-md mx-auto"
+              className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg mx-auto"
             />
           </div>
-          <div className="flex-1 text-left">
-            <h2 className="text-2xl mb-2 uppercase tracking-widest" style={{ fontFamily: 'Bellefair, serif' }}>
+          <div className="flex-1 text-center lg:text-left lg:w-1/2">
+            <h2 className="text-2xl mb-2 uppercase sm:text-3xl " style={{ fontFamily: 'Bellefair, serif' }}>
               The Technology...
             </h2>
-            <h3 className="text-4xl mb-4 uppercase" style={{ fontFamily: 'Bellefair, serif' }}>
+            <h3 className="text-4xl mb-4 uppercase sm:text-5xl " style={{ fontFamily: 'Bellefair, serif' }}>
               {currentTech.name}
             </h3>
-            <p className="text-lg mb-8" style={{ fontFamily: 'Barlow, sans-serif' }}>
+            <p className="text-lg mb-8 sm:text-xl " style={{ fontFamily: 'Barlow, sans-serif' }}>
               {currentTech.description}
             </p>
-            <ul className="flex space-x-4 justify-center">
+            <ul className="flex space-x-4 justify-center lg:justify-start">
               {technologyData.technology.map((tech, index) => (
                 <li key={index}>
                   <button
