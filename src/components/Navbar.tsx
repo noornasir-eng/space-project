@@ -39,8 +39,6 @@ const Navbar: React.FC = () => {
           </svg>
         </button>
       </div>
-
-      {/* Mobile Menu */}
       {isMenuOpen && (
         <div className="sm:hidden absolute top-0 left-0 w-full bg-gray-900 py-4">
           <ul className="flex flex-col space-y-4 text-center">
