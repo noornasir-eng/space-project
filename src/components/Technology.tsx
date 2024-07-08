@@ -13,7 +13,7 @@ const Technology: React.FC = () => {
       }}
     >
       <div className="container mx-auto p-6">
-        <h1 className="text-2xl uppercase mb-6 sm:text-3xl md:text-4xl lg:text-5xl xl:text-3xl" style={{ fontFamily: 'Bellefair, serif' }}>
+        <h1 className="text-1xl uppercase mb-6 sm:text-2xl md:text-2xl lg:text-3xl xl:text-xl" style={{ fontFamily: 'Bellefair, serif' }}>
           <span className="opacity-50">03</span> Space Launch 101
         </h1>
         <div className="flex flex-col lg:flex-row justify-center items-center lg:space-x-8 space-y-8 lg:space-y-0">
@@ -28,7 +28,7 @@ const Technology: React.FC = () => {
             <h2 className="text-2xl mb-2 uppercase sm:text-2xl " style={{ fontFamily: 'Bellefair, serif' }}>
               The Technology...
             </h2>
-            <h3 className="text-4xl mb-4 uppercase sm:text-2xl " style={{ fontFamily: 'Bellefair, serif' }}>
+            <h3 className="text-2xl mb-4 uppercase sm:text-2xl " style={{ fontFamily: 'Bellefair, serif' }}>
               {currentTech.name}
             </h3>
             <p className="text-lg mb-8 sm:text-xl " style={{ fontFamily: 'Barlow, sans-serif' }}>
